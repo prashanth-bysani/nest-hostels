@@ -1,7 +1,7 @@
 <template>
   <v-container class="fill-height">
-    <v-carousel show-arrows="hover">
-      <v-carousel-item v-for="src in srcs" :src="src" :key="src" cover></v-carousel-item>
+    <v-carousel show-arrows="hover" hide-delimiters progress="primary">
+      <v-carousel-item v-for="src in srcs" :src="src" :key="src"></v-carousel-item>
     </v-carousel>
 
     <v-card class="address-card" outlined>

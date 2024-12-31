@@ -1,13 +1,15 @@
 <template>
-    <PGView :srcs="pgData.images" :address="pgData.address"
-    :map-url="pgData.location" />
+    <PGView :srcs="pgData.images" :address="pgData.address" :map-url="pgData.location" />
 </template>
 
 <script setup>
 import PGView from '@/components/pgview/PGView.vue';
 const pgData = {
     title: "Nest Women's Hostel",
-    images: ['https://drive.google.com/drive-viewer/AKGpihY8CCSnlcqaslNtoNY6QpAqgxIyWQ8alxPw1Ku0DACrtF8FKhik47syTaMo2IsNfOihqQTnyeOpzk1sjD2pabwKqqzIK7m5fRA=s1600-rw-v1', 'https://cdn.vuetifyjs.com/images/cards/hotel.jpg'],
+    images: ['https://lh3.googleusercontent.com/d/1EOfFc3kS5GrC8BaMRYNUF-lqXD_Xc2Gj',
+        'https://lh3.googleusercontent.com/d/1Gx-VHEOwClwwAN43-aXma4ZuYepfOHwA',
+        'https://lh3.googleusercontent.com/d/1-UZcKS5WjQ3JK6zRfD9-RGvmqtJCnn8I',
+        'https://lh3.googleusercontent.com/d/1GGpXigQg7v0Jww7HmRZvUMyoxbAxXca7'],
     address: `
     <span class="mdi mdi-map-marker"></span>
     <h2>Nest Women's Hostel</h2>
