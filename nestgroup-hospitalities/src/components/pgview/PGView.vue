@@ -1,6 +1,6 @@
 <template>
   <v-container class="fill-height">
-    <v-carousel show-arrows="hover" hide-delimiters progress="primary">
+    <v-carousel show-arrows="hover" hide-delimiters>
       <v-carousel-item v-for="src in srcs" :src="src" :key="src"></v-carousel-item>
     </v-carousel>
 
