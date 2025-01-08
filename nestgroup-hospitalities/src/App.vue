@@ -1,6 +1,6 @@
 <template>
   <v-app class="home-container">
-    <v-app-bar app class="bg-beige">
+    <v-app-bar app class="transparent-bg" flat>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="d-flex align-center">
         <div class="d-flex">
@@ -9,12 +9,11 @@
         </div>
       </v-toolbar-title>
     </v-app-bar>
-    <v-navigation-drawer v-model="drawer" app>
+    <v-navigation-drawer v-model="drawer" floating class="transparent-bg">
       <v-list>
-        <v-list-item prepend-icon="mdi-home" title="Our Hospitalities" @click="router.push({name: 'home'})"></v-list-item>
+        <v-list-item prepend-icon="mdi-home" title="Our Hospitalities"
+          @click="router.push({ name: 'home' })"></v-list-item>
       </v-list>
-
-      <v-divider></v-divider>
 
       <v-list density="compact">
         <v-list-item v-for="key in Object.keys(pgData)" :title="pgData[key].title" :value="key"
@@ -58,3 +57,15 @@ const pgData = {
   }
 };
 </script>
+<style scoped>
+.transparent-bg {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.home-container {
+  background: url('@/assets/background.png') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+</style>
