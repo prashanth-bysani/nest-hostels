@@ -82,13 +82,6 @@
   </script>
   
   <style scoped>
-  .home-container {
-    background: url('@/assets/background.png') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-  }
-  
   .transparent-container {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
     border-radius: 10px;

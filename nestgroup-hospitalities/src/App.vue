@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app class="home-container">
     <v-app-bar app class="bg-beige">
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="d-flex align-center">
@@ -58,8 +58,3 @@ const pgData = {
   }
 };
 </script>
-<style scoped>
-.bg-beige {
-  background-color: #f5f5dc !important;
-}
-</style>
