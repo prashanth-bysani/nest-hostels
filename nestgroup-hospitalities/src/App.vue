@@ -4,7 +4,7 @@
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
       <v-toolbar-title class="d-flex align-center">
         <div class="d-flex">
-          <v-img src="../../nest-groups.png" class="pr-8" :width="54" cover></v-img>
+          <v-img src="./../public/nest-groups.png" class="pr-8" :width="54" cover></v-img>
           <p class="pl-4 text-h4 font-weight-medium">NEST GROUPS</p>
         </div>
       </v-toolbar-title>
