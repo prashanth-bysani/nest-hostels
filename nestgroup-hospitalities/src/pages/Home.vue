@@ -82,12 +82,6 @@
   </script>
   
   <style scoped>
-  .transparent-container {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-    border-radius: 10px;
-    padding: 20px;
-  }
-  
   .text-h3,
   .text-body-1,
   .text-h4,

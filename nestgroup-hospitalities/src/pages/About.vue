@@ -1,6 +1,6 @@
 <template>
      <v-container class="fill-height">
-        <v-container>
+        <v-container class="transparent-container">
             <v-row justify="center">
                 <v-col align-self="center" cols="12">
                     <p class="text-h3 text-center">About Us</p>

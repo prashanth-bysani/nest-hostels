@@ -12,6 +12,8 @@ import CoLife from '@/pages/hostels/CoLife.vue';
 import Vanitha from '@/pages/hostels/Vanitha.vue';
 import Womens from '@/pages/hostels/Womens.vue';
 import CoSpace from '@/pages/hostels/CoSpace.vue';
+import About from '@/pages/About.vue';
+import Contact from '@/pages/Contact.vue';
 
 let routes = [
   {
@@ -41,6 +43,16 @@ let routes = [
     path: '/cospace',
     name: 'cospace',
     component: CoSpace,
+  },
+  {
+    path: '/aboutus',
+    name: 'aboutus',
+    component: About
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: Contact
   }
 ];
 
