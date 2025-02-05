@@ -16,7 +16,7 @@ const pgData = {
             'Free Wi-Fi (Separate Routers for each floor)',
             'Drinking water dispensers and refrigerators for each floor',
             'Three times homely food (South Indian and North Indian)',
-            'Common Laundery area',
+            'Common Laundry area',
             'Daily room cleaning'
         ]
     },
